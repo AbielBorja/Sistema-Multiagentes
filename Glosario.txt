@@ -1,0 +1,19 @@
+Presepto:
+Mandato u orden que el superior hace observar y guardar al inferior o súbdito . 2. m. Cada una de las instrucciones o reglas que se dan o establecen para el conocimiento o manejo de un arte o facultad.
+
+Agentes 
+Sistemas computacionales capaces de realizar acciones de manera autónoma con el propósito de alcanzar una serie de objetivos que tiene delegados.
+
+Multiagentes
+Un sistema multiagente es básicamente un sistema compuesto por múltiples agentes que interactúan entre ellos. 
+
+Ejecución
+El tiempo de ejecución de un algoritmo va a depender de diversos factores como son: los datos de entrada que le suministremos, la calidad del código generado por el compilador para crear el programa objeto, la naturaleza y rapidez de las instrucciones máquina del procesador concreto que ejecute el programa
+
+Comportamiento emergente
+En esencia, un algoritmo emergente implementa un conjunto de comportamientos de bloques de construcción simples que cuando se combinan exhiben comportamientos más complejos.
+
+Disposición espacial
+A donde se pueden mover los agentes
+
+Unidades en los ejes
