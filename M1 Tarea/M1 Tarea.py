@@ -1,6 +1,4 @@
 import mesa
-import matplotlib.pyplot as plt
-import numpy as np
 
 
 def compute_gini(model):
