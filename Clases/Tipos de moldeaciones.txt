@@ -1,0 +1,36 @@
+Entidad Colectiva
+
+-> Requerimientos  
+
+Mutual responsiveness
+Compromiso a la actividad
+Compromiso a la acción
+
+-> Joint intentions
+
+Comunicación entre agentes
+
+-> Particale swamp orittantion
+
+No garantiza un minimo global pero hace un gran trabajo.
+Pero se tiene que definir el el sistema de busqueda.
+
+-> Stablity
+
+Sin importar lo que hacen los otrs agentes mi estrategia no cambia para maximizar.
+Un entorno parcialemnte observable. Es aquel que solo se ve lo que yo veo.
+
+-> Pareto
+Pareto es cuando los dos agentes cooperan
+
+estrategia que accion me conviene
+
+-> Utilidad
+El beneficio que llevara al tomar accion.
+
+-> Contratación
+
+Comunicación entre agntes con que el manager tenga una buena represetanación del mundo es sufiente para que los agentes trabajen.
+
+--------------- Tipos de Comunicación
+

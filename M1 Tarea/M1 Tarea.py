@@ -82,19 +82,17 @@ class TierraAgent(mesa.Agent):
         self.wealth = 1
 
 
-
-model = LimpiadoraModel(5, 20, 10, 10)
+# -------------  Tiempo de ejecución ----------------
+model = LimpiadoraModel(10, 20, 10, 10)
 for i in range(100):
     model.step()
-
-# -------------  Tiempo de ejecución ----------------
-params = {"width": 10,  "height": 10, "N": 5,"Tierra": 20}
+    params = {"width": 10,  "height": 10, "N": 5,"Tierra": 20}
 
 results = mesa.batch_run(
     LimpiadoraModel,
     parameters=params,
     iterations=5,
-    max_steps=50,
+    max_steps=100,
     number_processes=1,
     data_collection_period=1,
     display_progress=True,
