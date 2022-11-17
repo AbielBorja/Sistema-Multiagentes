@@ -1,10 +1,5 @@
 import random
 import mesa
-  
-# Visual Node
-class VisualNode(mesa.Agent):
-  def __init__(self, x, y):
-    super().__init__(x, y)
 
 # Visual Board
 class Road(mesa.Agent):
@@ -93,9 +88,7 @@ class Carros(mesa.Agent):
 
     # Si la celda en la que esta el agente tiene mas de una direccion, elegir una dir random a ir
     if len(cell) > 1 and self.canMove:
-
       pick = cell[random.randint(0, len(cell)-1)]
-      
       if pick == 'R':
         self.x += 1
 
@@ -112,7 +105,7 @@ class Carros(mesa.Agent):
       if self.canMove:
         self.model.grid.move_agent(self, (self.x, self.y))
 
-    # Else si tiene una dir, checar a cual ir y ver si esta disponible el lugar para ir
+    # Else si tiene una dirección, checar a cual ir y ver si esta disponible el lugar para ir
     else:
       self.checkFront()
     
@@ -159,5 +152,5 @@ class Carros(mesa.Agent):
       if not (any(isinstance(x, Carros) for x in self.model.grid.get_cell_list_contents((self.x, self.y + 1), True))):
         self.y += 1
     
-    if not self.isParked:
+    if self.canMove:
       self.model.grid.move_agent(self, (self.x, self.y))
