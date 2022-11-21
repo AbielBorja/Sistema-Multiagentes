@@ -55,6 +55,7 @@ class Semaforo(mesa.Agent):
       self.current_cycle = 0
       self.counter = 0
       self.lights[0].current_cycle = 1
+      print("Dandole prioridad a la avenida principal")
 
     # Cambiar status del coche con el semaforo
     for vehicle in vehicle_cell:

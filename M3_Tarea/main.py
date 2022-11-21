@@ -64,7 +64,7 @@ def agent_portrayal(agent):
 rows, cols = 20, 20
 rows += 1
 cols += 1
-grid = CanvasGrid(agent_portrayal, rows, cols, 500, 500)
+grid = CanvasGrid(agent_portrayal, rows, cols, 600, 600)
 
 server = ModularServer(TrafficModel, [grid], "Road Traffic", 
   {
